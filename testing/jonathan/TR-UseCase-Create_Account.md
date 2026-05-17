@@ -1,8 +1,11 @@
 # TEST REPORT — Create Account Use Case
 
 **Tester:** Jonathan Bitingingwa
+
 **Date:**  25th April,2026
+
 **Issue Reference:**  #2
+
 **Use Case:**  Create Account
 
 ---
@@ -114,9 +117,8 @@ System should not check duplicates when required fields are missing
 
 | # | Short Description | Type | Severity |
 |---|-------------------|------|----------|
-| 1 |  YES because the actual system flow does not match the documented use case| - Functional mismatch / Missing features / UX inconsistency| High (core functionality differs from system design)|
-| 2 |YES, Incorrect validation logic shows irrelevant error messages |Bug / Validation Logic Issue / UX Issue
- |Medium - High (because it affects user understanding and form usability) |
+| 1 |  YES because the actual system flow does not match the documented use case|  Functional mismatch / Missing features / UX inconsistency| High (core functionality differs from system design)|
+| 2 |YES, Incorrect validation logic shows irrelevant error messages| Bug / Validation Logic Issue / UX Issue| Medium - High (because it affects user understanding and form usability) |
 | 3 | | | |
 
 ---
