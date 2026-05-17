@@ -137,7 +137,9 @@ System should not check duplicates when required fields are missing
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/b2d99dfd-0bfa-4526-a94a-0cf482e32c26" /> **Screenshot of password reset page**
 
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/7b5670f1-6e50-477a-9a5d-fcc1807e4108" /> **Screenshot of student dashboard after login**
+
 <img width="600" height="609" alt="Image" src="https://github.com/user-attachments/assets/bcf4e7ba-7e4f-4c10-ae72-ad99891d597c" /> **The system shows duplicate email error even though the main problem is missing username**
+
 <img width="1280" height="722" alt="Image" src="https://github.com/user-attachments/assets/59572428-bc7c-4f25-92e6-c750157f048b" /> **The system shows username already registered error even when email is empty**
 
 ---
