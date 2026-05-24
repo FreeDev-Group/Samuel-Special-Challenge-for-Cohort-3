@@ -135,4 +135,4 @@ https://github.com/FreeDev-Group/Samuel-Special-Challenge-for-Cohort-3/issues/16
 ---
 
 ## Files
-`/testing/[jonathan]/[TR-PasswordRecoveryUseCase].md`
+`/testing/[jonathan]/[TR-Password Recovery UseCase].md`
