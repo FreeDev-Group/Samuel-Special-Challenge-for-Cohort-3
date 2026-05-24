@@ -48,7 +48,8 @@ Password: jolva@1111
 -I entered:  
 Email: jonates@email.com (unregistered)  
 Password: valid password  
--I clicked “Login”
+-I clicked “Login”  
+
 ---
 
 ## What I noticed
