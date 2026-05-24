@@ -68,7 +68,7 @@ No warning or delay was applied
 The system still allowed unlimited attempts  
 No lockout, delay, or restriction observed
 
-**Scenario 5 Result:**
+**Scenario 5 Result:**  
 The system displayed: “Unknown email address. Check again or try your username.”
 
 ---
