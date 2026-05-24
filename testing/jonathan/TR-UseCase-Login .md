@@ -114,7 +114,9 @@ Based on the use case:
 -Behavior is identical to Test Case 2 - no progressive protection  
 -Indicates missing security implementation entirely  
 -Error messages are inconsistent with security best practices  
--System exposes account existence
+-System exposes account existence  
+
+
 ---
 
 ## Evidence
@@ -138,7 +140,8 @@ Major Issues Found:
 -Information disclosure through error messages  
 -No progressive security controls  
 -Overall Risk Assessment  
-The system is functionally correct but NOT secure Vulnerable to brute-force attacks Vulnerable to user enumeration.
+The system is functionally correct but NOT secure Vulnerable to brute-force attacks Vulnerable to user enumeration.  
+
 
 ---
 
