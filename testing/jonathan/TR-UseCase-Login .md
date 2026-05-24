@@ -38,17 +38,16 @@ Password: jolva@1111
 -I entered wrong password 3 consecutive times
 -I attempted to log in again immediately
 
-### Scenario 4 —
--I entered wrong password 5 consecutive times
+### Scenario 4 —  
+-I entered wrong password 5 consecutive times  
 -I attempted to log in again immediately
 
-### Scenario 5 —
--I opened the application
--I clicked on “User” - “Login”
--I entered:
-Email: jonates@email.com
-(unregistered)
-Password: valid password
+### Scenario 5 —  
+-I opened the application  
+-I clicked on “User” - “Login”  
+-I entered:  
+Email: jonates@email.com (unregistered)  
+Password: valid password  
 -I clicked “Login”
 ---
 
@@ -57,40 +56,35 @@ Password: valid password
 I successfully logged in without any errors
 I was redirected to the student dashboard (home section)
 
-**Scenario 2 Result:**
+**Scenario 2 Result:**  
+The system displayed: “The password you entered for the username jonathantest is incorrect. Lost your password?”  
 
-The system displayed: “The password you entered for the username jonathantest is incorrect. Lost your password?”
-
-**Scenario 3 Result:**
-
-The system allowed unlimited login attempts
-There was no lockout mechanism
+**Scenario 3 Result:**    
+The system allowed unlimited login attempts  
+There was no lockout mechanism  
 No warning or delay was applied
 
-Scenario 4 Result:
-
-The system still allowed unlimited attempts
+**Scenario 4 Result:**  
+The system still allowed unlimited attempts  
 No lockout, delay, or restriction observed
 
-Scenario 5 Result:
-
+**Scenario 5 Result:**
 The system displayed: “Unknown email address. Check again or try your username.”
 
 ---
 
 ## What should have happened
 Based on the use case:
-
--The system should authenticate valid credentials
--Redirect the user to the Student dashboard
--Display the correct student interface and welcome message
--The system should deny access
--Display a generic error message such as: “Invalid username or password”
--After 3 failed attempts: Account should be temporarily locked (~1 minute)
--System should display a message: “Too many failed attempts. Try again later.”
--After 5 failed attempts:
--Longer lockout (~3 minutes)
--Clear warning message
+-The system should authenticate valid credentials  
+-Redirect the user to the Student dashboard  
+-Display the correct student interface and welcome message  
+-The system should deny access  
+-Display a generic error message such as: “Invalid username or password”  
+-After 3 failed attempts: Account should be temporarily locked (~1 minute)  
+-System should display a message: “Too many failed attempts. Try again later.”  
+-After 5 failed attempts:  
+-Longer lockout (~3 minutes)  
+-Clear warning message  
 -The system should show a generic error message: “Invalid username or password”
 
 ---
@@ -108,17 +102,17 @@ Based on the use case:
 ---
 
 ## Special Note
--Successful authentication confirms valid credential handling
--Correct redirection to Student dashboard
--No visible loading indicator during login (optional UX improvement)
--No personalized message (e.g., username displayed)
--System differentiates between valid username and wrong password
--This behavior is not secure (information disclosure)
--No rate limiting or protection observed
--This is a critical security gap
--Behavior is identical to Test Case 2 - no progressive protection
--Indicates missing security implementation entirely
--Error messages are inconsistent with security best practices
+-Successful authentication confirms valid credential handling  
+-Correct redirection to Student dashboard  
+-No visible loading indicator during login (optional UX improvement)  
+-No personalized message (e.g., username displayed)  
+-System differentiates between valid username and wrong password  
+-This behavior is not secure (information disclosure)  
+-No rate limiting or protection observed  
+-This is a critical security gap  
+-Behavior is identical to Test Case 2 - no progressive protection  
+-Indicates missing security implementation entirely  
+-Error messages are inconsistent with security best practices  
 -System exposes account existence
 ---
 
@@ -133,16 +127,16 @@ Based on the use case:
 ---
 
 ## My thoughts / questions
--What happens after session timeout?
--Can I access this page directly without logging in?
--Is role-based access strictly enforced?
--ogin system correctly blocks invalid credentials
-Major Issues Found:
--No account lockout mechanism
--No rate limiting
--Information disclosure through error messages
--No progressive security controls
--Overall Risk Assessment
+-What happens after session timeout?  
+-Can I access this page directly without logging in?  
+-Is role-based access strictly enforced?  
+-ogin system correctly blocks invalid credentials  
+Major Issues Found:  
+-No account lockout mechanism  
+-No rate limiting  
+-Information disclosure through error messages  
+-No progressive security controls  
+-Overall Risk Assessment  
 The system is functionally correct but NOT secure Vulnerable to brute-force attacks Vulnerable to user enumeration.
 
 ---
