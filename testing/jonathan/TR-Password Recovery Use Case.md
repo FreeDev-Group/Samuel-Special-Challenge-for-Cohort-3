@@ -99,7 +99,9 @@ User should:
 -Need clarification whether post-reset confirmation email is part of system requirements  
 -The password recovery process exposes account existence information  
 -This behavior weakens authentication security  
--Generic recovery responses are recommended security best practice
+-Generic recovery responses are recommended security best practice  
+
+
 ---
 
 ## Evidence
@@ -117,7 +119,9 @@ Is the absence of confirmation email intentional?
 Should users receive notification after password changes for security reasons?  
 Does the reset link expire after use?  
 Does the use case specify generic recovery messaging?  
-Is this intentional behavior or missing security hardening?
+Is this intentional behavior or missing security hardening?  
+
+
 ---
 
 ## Action taken
