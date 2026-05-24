@@ -1,4 +1,4 @@
-# TEST REPORT — Create Account Use Case
+# TEST REPORT — Password Recovery Use Case
 
 **Tester:** Jonathan Bitingingwa
 
