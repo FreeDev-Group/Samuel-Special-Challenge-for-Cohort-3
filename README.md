@@ -32,7 +32,9 @@ To simulate a professional software testing environment, we will follow these st
 ## Team roles
 - **Project Owner:** Michael
 - **Mentor:** Samuel
-- **Mentee:** Jonathan
+- **Mentees:**
+  - Jonathan
+  - Josue
 
 ## Acknowledgements
 Thanks to MichaelKentBurns.com, the A-Team mentors, and all the Cohort 3 students for making this a world-class collaborative learning experience.
