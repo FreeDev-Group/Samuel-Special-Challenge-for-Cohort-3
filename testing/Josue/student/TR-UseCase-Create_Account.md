@@ -74,7 +74,7 @@
 
 ## Action taken
 - [ ] I created a sub-issue for each valid bug
-- [ ] I added the `bug` label on each sub-issue
+- [ ] I added the `bug` label on each sub-issue.
 - [ ] I continued testing
 
 Sub-issue links:
@@ -82,4 +82,4 @@ Sub-issue links:
 ---
 
 ## Files
-`/testing/[Your-Name]/[TR-UseCase-Name].md`
+`/testing/[Your-Name]/[TR-UseCase-Name].md` 
