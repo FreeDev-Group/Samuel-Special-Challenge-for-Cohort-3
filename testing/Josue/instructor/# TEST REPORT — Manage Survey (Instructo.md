@@ -2,7 +2,7 @@
 
 **Tester:** Josue (@kamojosue09-blip)
 
-**Date and :**Hour June 13, 2026
+**Date and Hour :** 19PM June 13, 2026
 
 **Issue Reference:** #33
 
@@ -230,58 +230,49 @@ According to the use cases:
 
 # Evidence
 
-### TC-01-Instructor-Dashboard
-![TC-01-Instructor-Dashboard](TC-01-Instructor-Dashboard.png)
+<img width="1366" height="768" alt="TC-01-Instructor-Dashboard" src="https://github.com/user-attachments/assets/efe170cb-d18d-495a-9ddb-3a3f8b28a801" />
+
 
 Screenshot showing successful Instructor dashboard access.
-
-### TC-02-Surveys-Management-Page
-![TC-02-Surveys-Management-Page](TC-02-Surveys-Management-Page.png)
+<img width="1366" height="768" alt="TC-02-Surveys-Management-Page" src="https://github.com/user-attachments/assets/fbbcfaac-dfee-4166-960b-81183e171706" />
 
 Screenshot showing survey management page.
 
-### TC-03-Create-Survey-Form
-![TC-03-Create-Survey-Form](TC-03-Create-Survey-Form.png)
+<img width="1366" height="768" alt="TC-03-Create-Survey-Form" src="https://github.com/user-attachments/assets/828a32cd-ad3f-4707-828b-050944673143" />
+
 
 Screenshot showing survey creation form.
 
-### TC-04-Survey-Created-Successfully
-![TC-04-Survey-Created-Successfully](TC-04-Survey-Created-Successfully.png)
+<img width="1366" height="768" alt="TC-04-Survey-Created-Successfully" src="https://github.com/user-attachments/assets/6338621f-3e78-43af-8cff-4fe7b42da4b3" />
 
 Screenshot showing successful survey publication.
 
-### TC-04-Question-Creation-Form
-![TC-04-Question-Creation-Form](TC-04-Question-Creation-Form.png)
+<img width="1366" height="768" alt="TC-04-Question-Creation-Form" src="https://github.com/user-attachments/assets/21044f5c-fc3b-42a7-a55d-fc3a4ed129a7" />
 
 Screenshot showing question creation form and available question types.
 
-### TC-05-Multiple-Choice-Question
-![TC-05-Multiple-Choice-Question](TC-05-Multiple-Choice-Question.png)
+<img width="1366" height="768" alt="TC-05-Multiple-Choice-Question" src="https://github.com/user-attachments/assets/d91a4b25-9640-45d9-b1a8-90e829362abc" />
 
 Screenshot showing successful Multiple Choice question creation.
 
-### TC-06-True-False-Question-Created
-![TC-06-True-False-Question-Created](TC-06-True-False-Question-Created.png)
+<img width="1366" height="768" alt="TC-06-True-False-Question-Created" src="https://github.com/user-attachments/assets/623b6096-8432-4667-8e06-d0067b4d8995" />
 
 Screenshot showing successful True/False question creation.
 
-### TC-07-Essay-Question-Created
-![TC-07-Essay-Question-Created](TC-07-Essay-Question-Created.png)
+<img width="1366" height="768" alt="TC-06-True-False-Question-Created" src="https://github.com/user-attachments/assets/855a3763-8191-48f3-a5c5-2ae53392b26a" />
 
 Screenshot showing successful Essay-style question creation.
 
-### TC-08-Survey-Edit-Successfully
-![TC-08-Survey-Edited-Successfully.png](TC-08-Survey-Edited-Successfully.png)
+<img width="1366" height="768" alt="TC-08-Survey-Edited-Successfully" src="https://github.com/user-attachments/assets/80b92185-a38b-46f7-8d09-da310df4cb65" />
 
 Screenshot showing successful Short Answer question creation.
 
-### TC-09-Survey-Found-In-Trach
-![TC-09-Survey-Found-In-Trash.png](TC-09-Survey-Found-In-Trash.png)
+<img width="1366" height="768" alt="TC-08-Survey-Edited-Successfully" src="https://github.com/user-attachments/assets/70f6ebc8-7b7c-4f50-bba1-066437468774" />
 
 Screenshot showing successful survey modification.
 
-### TC-10-Survey-Permanently-Deleted-1
-![TC-10-Survey-Permanently-Deleted.png](TC-10-Survey-Permanently-Deleted.png)
+<img width="1366" height="768" alt="TC-09-Survey-Found-In-Trash" src="https://github.com/user-attachments/assets/649affd6-3517-43ff-95e0-77d83ac5b247" />
+
 
 Screenshot showing survey located in Trash.
 
